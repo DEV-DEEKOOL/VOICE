@@ -54,8 +54,8 @@
 }
 .mdiv1 {
        position: relative;
-       height: 1400px;
-       width: 100%;
+       height: 140rem;
+       width: 100vw;
 }
 .sec1 {
        position: absolute;
@@ -105,8 +105,8 @@ h5 {
 .mdiv3 {
     position: relative;
     background-color: white;
-    width: 100%;
-    height: 800px;
+    width: 100vw;
+    height: 80rem;
 }
 .sec3 {
    position: absolute;
@@ -117,8 +117,8 @@ h5 {
 .mdiv4 {
         position: relative;
         background: #e4dede;
-        height: 400px;
-        width: 100%;
+        height: 40rem;
+        width: 100vw;
 }
 .sec4 {
     position: absolute;
@@ -128,8 +128,8 @@ h5 {
  }
  .footer {
           position: relative;
-          height: 230px;
-          width: 100%;
+          height: 230rem;
+          width: 100vw;
  }
  .foot1 {
          position: absolute;
