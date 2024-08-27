@@ -7,6 +7,11 @@
  html {
        font-size: 62.5%;
  }
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
 
  .mdiv {
         position: relative;
@@ -53,17 +58,29 @@
     font-weight: bold;
 }
 .mdiv1 {
-       position: relative;
-       height: 140rem;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       height: 200vh;
        width: 100vw;
 }
 .sec1 {
-       position: absolute;
-       top: 150px;
-       left: 250px;
        text-align: center;
        color: rgb(73, 68, 68);
        font-family: Helvetica, sans-serif;
+}
+.sec1 img {
+    max-width: 100%;
+}
+.sec2 img {
+    max-width: 100%;
+    height: auto;
+}
+.sec3 img {
+    max-width: 100%;
+    height: auto;
 }
 #hone {
        font-size: 6rem;
@@ -91,69 +108,79 @@ h5 {
     font-size: 1.7rem;
 }
 .mdiv2 {
-        position: relative;
-        background-color: #e4dede;
-        width: 100%;
-        height: 800px;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       background-color: #e4dede;
+       width: 100vw;
+       min-height: 130vh;
 }
 .sec2 {
-       position: absolute;
-       top: 150px;
-       left: 250px;
        text-align: center;
 }
 .mdiv3 {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     width: 100vw;
     height: 80rem;
 }
 .sec3 {
-   position: absolute;
-   top: 150px;
-   left: 250px;
    text-align: center;
 }
 .mdiv4 {
-        position: relative;
-        background: #e4dede;
-        height: 40rem;
-        width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #e4dede;
+    height: 40rem;
+    width: 100vw;     
 }
 .sec4 {
-    position: absolute;
-    top: 70px;
-    left: 500px;
     text-align: center;
  }
  .footer {
-          position: relative;
-          height: 230rem;
-          width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
  }
  .foot1 {
-         position: absolute;
          width: 70%;
-         top: 50px;
-         left: 200px;
          font-size: 1rem;
  }
  .foot2 {
          position: absolute;
-         top: 150px;
          left: 200px;
  }
  .foot3 {
-         position: absolute;
-         top: 160px;
-         left: 350px;
+        
          font-size: 1.5rem;
+ }
+ .lastflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5rem;
  }
  ul {
      list-style-type: none;
      margin: 0;
      padding: 0;
-      overflow: hidden;
+     overflow: hidden;
+     margin-right: 20rem;
+     margin-left: 10rem;
     }
   
   li {
@@ -167,9 +194,6 @@ li a {
     color: black;
 }
 .foot4 {
-        position: absolute;
-        top: 160px;
-        right: 200px;
         word-spacing: 10px;
 }
 .btn1 a {
@@ -184,13 +208,17 @@ li a {
     text-decoration: none;
     color: white;
 }
-#fp {position: absolute;
-     top: 5px;
-     left: 30px;
+#fp {
     text-decoration: none;
     font-size: 1.3rem;
 }
 #fp a {
     text-decoration: none;
     color: #000;
+}
+.qstmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20rem;
 }
