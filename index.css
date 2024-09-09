@@ -161,10 +161,9 @@ h5 {
  }
  .foot2 {
          position: absolute;
-         left: 200px;
+         left: 20rem;
  }
  .foot3 {
-        
          font-size: 1.5rem;
  }
  .lastflex {
@@ -186,7 +185,7 @@ h5 {
   li {
     float: left;
     color: black;
-    padding-left: 20px;
+    padding-left: 2rem;
 
 }
 li a { 
@@ -221,4 +220,21 @@ li a {
     justify-content: center;
     align-items: center;
     margin-left: 20rem;
+}
+
+@media (max-width: 768px) {
+    .foot2 {
+        position: absolute;
+        left: 12rem;
+        top: 350rem;
+}
+.qstmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+}
+.foot3 {
+    display: none;
+}
 }
